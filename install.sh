@@ -39,7 +39,7 @@ show() {
         echo "Или отсканируйте QR-код в приложении — тогда пароль вводить не нужно:"
         qrencode -t ANSIUTF8 "catchwave://connect?host=$host&port=$port&token=$token&pin=$pin"
     fi
-    echo "Папка для музыки на сервере: $MUSIC_DIR"
+    echo "Папка для аудиофайлов на сервере: $MUSIC_DIR"
     echo "QR-код даёт такой же доступ, как пароль. Не публикуйте его."
 }
 

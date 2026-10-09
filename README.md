@@ -4,7 +4,7 @@
 
 *A tiny self-hosted server for the CatchWave iPhone app: one private folder with your own audio files on your VPS, served over TLS to your phone only. Single Python 3 file, no dependencies. Run `sudo bash install.sh` on Ubuntu or Debian; it prints the address, port and a QR code to enter in the app.*
 
-Приложение не содержит и не раздаёт никакой музыки: оно показывает только те файлы, которые вы сами положили на свой сервер. Кладите туда только то, на что у вас есть права.
+Приложение не содержит и не раздаёт никаких аудиозаписей: оно показывает только те файлы, которые вы сами положили на свой сервер. Кладите туда только то, на что у вас есть права.
 
 Вопросы и ошибки — в [Issues](https://github.com/Lossev/catchwave-server/issues). [Политика конфиденциальности приложения](PRIVACY.md).
 
@@ -35,7 +35,7 @@ sudo bash catchwave-server/install.sh
 
 Показать адрес, порт и QR-код ещё раз: `sudo bash install.sh show`. Сменить пароль: `sudo bash install.sh password` (после этого в приложении нужно подключиться заново). Повторный запуск установщика обновляет сервер, пароль и сертификат остаются прежними.
 
-## Как положить музыку
+## Как положить файлы
 
 Установщик добавляет вашего пользователя в группу `catchwave` (нужно перезайти по SSH), после этого:
 
